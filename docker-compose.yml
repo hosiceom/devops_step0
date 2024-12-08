@@ -7,7 +7,7 @@ services:
     ports:
       - 80:80
     volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/nginx.config:/etc/nginx/nginx.conf
     depends_on:
       - was1
       - was2
